@@ -1,0 +1,74 @@
+body {
+  font-family: 'Lobster', cursive;
+}
+.list-name { 
+  color: #008B8B;
+  text-align: center;
+}
+.task-list-wrap {
+  margin: 10px auto;
+  max-width: 400px;
+}
+.task-date {
+  display: inline;
+  float: right;
+  width: 22%;
+}
+li {
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color:#FFFFE0;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  list-style-type: none;
+}
+li:last-child {
+  border-bottom: 1px solid black;
+}
+.through {
+  color: red;
+  text-decoration: line-through;
+}
+em {
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+li:hover em {
+  display: inline;
+}
+/*.button-del {
+  cursor: pointer;
+  outline: none;
+  display: inline;
+  float: right;
+  width: 10%;
+  height: 19px;
+  margin-right: -10px;
+  padding: 0;
+  border-radius: 5px;
+  background-color: red;
+}*/
+.form-task {
+  margin-left: 40px;
+  text-align: center;
+}
+.task-field {
+  outline: none;
+  width: 285px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 5px;
+}
+.submit-task-field {
+  cursor: pointer;
+  outline: none;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 5px;
+}
+.fa {
+  padding-left: 5px;
+  color:#696969;
+}
